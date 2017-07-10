@@ -1,0 +1,308 @@
+body{background-color: #383838;}
+@media (max-width: 640px)  {
+	.denglu-zhuce{
+		width: 100%;
+	}	
+	.a{width: 50px;float:right;}
+	.cebian-nav{display: none;}
+	.down-{margin-top: -30px;}
+}
+
+@media (max-width: 641px) and (min-width: 1025px) {
+	.denglu-zhuce{
+	width: 100%;
+}	
+.down-{margin-top: 90px;}
+}
+@media (min-width: 1026px)  {
+	.denglu-zhuce{width: 30%;}
+	.down-{margin-top: 90px;}
+}
+.header{
+	margin: auto;
+	width: 92%;
+	height: 30px;
+	margin-top: 25px;
+}
+.down-{
+	/*margin-top: 90px;*/
+	height:537.4px;
+	width: 92%%;
+	
+}
+.tubiao{
+	height: 85.4px;	
+	width: 100%;
+}
+.tu{
+	margin:0 auto;
+	height: 51px;
+	width: 159px;
+}
+.word {
+	width: 170.55px;
+	height: 17px;
+	margin:auto;
+	letter-spacing: 6px;
+	font-family: 微软雅黑;
+	line-height: 1.8;
+	color: rgb(228,228,228);
+	font-size: 12px;
+	text-align: center;
+	margin-top: 12px;
+}
+.denglu-zhuce{
+	height: 400px;
+	margin: auto;
+    margin-top: 80px;	
+}
+.one a{	
+	box-shadow: none;
+	text-decoration: none;
+	font-size: 15px !important;
+	color: #cccccc !important;
+	font-family: Roboto;
+	line-height: 18px !important;
+	font-weight: normal !important;
+}
+.three{
+background: #e4e4e4 !important;
+border: 1px solid #e4e4e4 !important;
+color: #000000 !important;
+box-shadow: inset 0 1px #e4e4e4;
+font-family: Roboto;
+font-size: 16px !important;
+}
+.three1{
+color: #000000 !important;
+box-shadow: inset 0 1px #e4e4e4;
+font-family: Roboto;
+font-size: 16px !important;
+border: 1px solid #e4e4e4;
+}
+.others{
+	margin-top: 20px;
+	height: 32px;
+	width: 100%;
+	font-size: 15px !important;
+	color: #cccccc !important;
+	font-family: Roboto;
+	line-height: 18px !important;
+	font-weight: normal !important;
+}
+.icon1{
+	line-height: 18px;
+	margin-left: 105px;
+	margin-top: -20px;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+    }
+.icon1 a{
+	border-radius: 50%;
+background-repeat: no-repeat;
+height: 24px;
+width: 24px;
+background-position: -48px -48px;
+display: inline-block;
+background-image: url(../img/social_icon_24x24.png);	
+}
+.icon2{
+	line-height: 18px;
+	margin-left: 135px;
+	margin-top: -24px;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+    }
+.icon2 a{
+border-radius: 50%;
+background-repeat: no-repeat;
+height: 24px;
+width: 24px;
+background-position: 0px -48px;
+display: inline-block;
+background-image: url(../img/social_icon_24x24.png);	
+}
+.icon3{
+	line-height: 18px;
+	margin-left: 165px;
+	margin-top: -24px;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: red;
+    }
+.icon3 a{
+border-radius: 50%;
+background-repeat: no-repeat;
+height: 24px;
+width: 24px;
+background-position: -240px -48px;
+display: inline-block;
+background-image: url(../img/social_icon_24x24.png);	
+}
+.icon4{
+	line-height: 18px;
+	margin-left: 195px;
+	margin-top: -24px;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+    }
+.icon4 a{
+border-radius: 50%;
+background-repeat: no-repeat;
+height: 24px;
+width: 24px;
+background-position: -96px -48px;
+display: inline-block;
+background-image: url(../img/social_icon_24x24.png);	
+}
+#forget_pass{
+	text-decoration: none;
+	height: 32px !important;
+line-height: 32px !important;
+color: #cccccc !important;
+font-size: 15px !important;
+}
+.cebian-nav{
+	height: 216px;
+	width: 70px;
+	margin-top: 250px;
+	right:0px;
+	z-index: 3;
+}
+.cebian-nav li a:hover{
+	background-color: rgb(62, 163, 255);
+}
+.icon11{
+	height: 54px;
+	width: 144px;
+	left: 0;
+	transition: left 0.6s ease 0s; 
+	background-color: rgb(62, 163, 255);
+}
+.icon11:hover{left:-80px;}
+.icon11 i{
+	background-image: url(../img/qq.png);
+	background-position: 30px -40px;
+	height: 30px;
+	margin: 12px;
+	width: 30px;
+	display: inline-block;
+	line-height: 16px;
+	vertical-align: text-top;
+	font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	margin: auto;
+}
+.icon11 span{
+	width: 74px;
+	font-size: 16px;
+	padding-right: 10px;
+	color: #fff;
+	position: relative;
+	top: 9px;
+	font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	margin-left: 6px;
+}
+.icon22{
+	height: 54px;
+	width: 173px;
+	left: 0;
+	transition: left 0.6s ease 0s; 
+	background: rgb(49, 53, 61);
+}
+.icon22 i{
+	background-image: url(../img/qq.png);
+	background-position: 30px 0px;
+	height: 30px;
+	margin: 12px;
+	width: 30px;
+	display: inline-block;
+	line-height: 16px;
+	vertical-align: text-top;
+	font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	margin: auto;
+}
+.icon22 span{
+	width: 74px;
+	font-size: 16px;
+	padding-right: 10px;
+	color: #fff;
+	position: relative;
+	top: 9px;
+	font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	margin-left: 6px;
+}
+.icon22:hover{left:-105px;}
+.icon33{
+	height: 54px;
+	width: 145px;
+	left: 0;
+	transition: left 0.6s ease 0s; 
+	background: rgb(49, 53, 61);
+}
+.icon33 i{
+	background-image: url(../img/qq.png);
+	background-position: 30px -184px;
+	height: 30px;
+	margin: 12px;
+	width: 30px;
+	display: inline-block;
+	line-height: 16px;
+	vertical-align: text-top;
+	font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	margin: auto;
+}
+.icon33 span{
+	width: 74px;
+	font-size: 16px;
+	padding-right: 10px;
+	color: #fff;
+	position: relative;
+	top: 9px;
+	font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	margin-left: 6px;
+}
+.icon33:hover{left:-80px;}
+
+
+.icon44{
+	height: 54px;
+	width: 70px;
+	left: 0;
+	transition: left 0.6s ease 0s; 
+	background: rgb(49, 53, 61);
+}
+.icon44 i{
+	background-image: url(../img/qq.png);
+	background-position: 30px -80px;
+	height: 30px;
+	margin: 12px;
+	width: 30px;
+	display: inline-block;
+	line-height: 16px;
+	vertical-align: text-top;
+	font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	margin: auto;
+}
+.weixin-tu{
+	width: 190px;
+	height: 201px;
+	margin-top: -120px;
+	margin-left: -220px;
+	display: none;
+}
+.a{
+	background-color: #383838;
+	height: 10px;
+	/*width: 100%;*/
+	border: 0 solid #383838;
+	}
+#example-navbar-collapse ul li a{
+	background-image: url(../img/叉cha.png);
+}
+#example-navbar-collapse ul li a:hover{
+	background-image: url(../img/叉叉.png);
+}
